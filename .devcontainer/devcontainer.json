@@ -1,12 +1,14 @@
 {
-    "name": "Strath Lab Classroom Environment",
-    "image": "mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu-20.04",
+    "name": "My Codespace Environment",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",
+    "postCreateCommand": "pip install jupyter",
     "settings": {
       "terminal.integrated.shell.linux": "/bin/bash"
     },
     "extensions": [
       "ms-python.python",
-      "dbaeumer.vscode-eslint"
+      "ms-toolsai.jupyter"
     ]
   }
+  
   
