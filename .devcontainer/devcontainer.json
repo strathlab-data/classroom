@@ -1,14 +1,14 @@
 {
-    "name": "My Codespace Environment",
-    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",
-    "postCreateCommand": "pip install jupyter",
-    "settings": {
-      "terminal.integrated.shell.linux": "/bin/bash"
-    },
-    "extensions": [
-      "ms-python.python",
-      "ms-toolsai.jupyter"
-    ]
-  }
-  
-  
+  "name": "Standard Dev Container",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ],
+  "forwardPorts": [],
+  "remoteUser": "vscode"
+}
