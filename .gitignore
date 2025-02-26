@@ -1,8 +1,0 @@
-# Ignore the virtual environment
-venv/
-
-# Ignore Python cache files
-__pycache__/
-*.pyc
-
-# Add other files or directories you want Git to ignore
