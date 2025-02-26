@@ -1,0 +1,11 @@
+{
+    "name": "Python Codespace",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
+    "postCreateCommand": "python -m venv venv && source venv/bin/activate && pip install -r requirements.txt",
+    "settings": {
+      "python.pythonPath": "venv/bin/python"
+    },
+    "extensions": [
+      "ms-python.python"
+    ]
+  }
